@@ -1,0 +1,221 @@
+/*Retouche la page entiere*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+/*---------------------Body-----------------------------*/
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(36, 156, 36);
+}
+/*---------------------Entete--------------------------*/
+/*General*/
+#entete {
+  background-color: rgb(36, 156, 36);
+}
+/*Retouche le titre*/
+#entete h1 {
+  font-size: xx-large;
+  margin: 1%;
+}
+/*Retouche au logo (phrase)*/
+#entete p {
+  font-size: x-large;
+  margin: 1%;
+}
+/*---------------------Menu--------------------------*/
+/*General*/
+#menu {
+  background-color: black;
+  padding: 10px;
+}
+/*Retouche les hrefs du menu*/
+#menu a {
+  font-size: large;
+  color: aliceblue;
+  align-items: center;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+/*-------------------Accueil----------------------*/
+/*General*/
+#accueil {
+  background-color: rgb(36, 156, 36);
+  padding: 10px;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+}
+/*Retouche les paragraphs de l'accueil*/
+#accueil p {
+  margin: 15px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*Met la partie inscription et tableau l'un a coter de l'autre*/
+#tableauInscription {
+  background-color: rgb(36, 156, 36);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+/*-------------------Tableau---------------------*/
+/*General*/
+#tableau {
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 4%;
+}
+/*Retouche au h2*/
+#tableau h2 {
+  font-size: xx-large;
+}
+/*Retouche le tableau*/
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 4%;
+  margin-top: 15%;
+}
+/*Transform*/
+table:hover {
+  transform: scale(1, 2.1);
+}
+/*Retouche l'intérieur du tableau*/
+th,
+td {
+  border: 1px solid black;
+}
+/*-------------------Formulaire-------------------*/
+/*General*/
+form {
+  background-color: rgb(36, 156, 36);
+  padding: 8%;
+  border: 3px solid black;
+  margin-bottom: 20%;
+}
+/*Retouche le formulaire*/
+form fieldset {
+  padding: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 3px solid black;
+}
+
+/*----------------Article----------------*/
+/*General*/
+#article {
+  display: flex;
+  flex-direction: row;
+  border: 3px solid black;
+  padding: 25px;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 4%;
+}
+/*Retouche au texte de la div "histoirePrincipale"*/
+#histoirePrincipale p {
+  margin: 8%;
+  line-height: 29px;
+}
+/*Transition*/
+#histoirePrincipale:hover {
+  font-size: 2em;
+  transition: font-size 1s;
+  -webkit-transition: font-size 1s;
+  -moz-transition: font-size 1s;
+  -ms-transition: font-size 1s;
+  -o-transition: font-size 1s;
+}
+/*Retouche au texte de la div "pourquoiJouer"*/
+#pourquoiJouer p {
+  margin: 8%;
+  line-height: 29px;
+}
+/*Transition*/
+#pourquoiJouer:hover {
+  font-size: 2em;
+  transition: font-size 1s;
+  -webkit-transition: font-size 1s;
+  -moz-transition: font-size 1s;
+  -ms-transition: font-size 1s;
+  -o-transition: font-size 1s;
+}
+/*Retouche image de div "histoirePrincipale"*/
+#livre {
+  width: 75%;
+  margin: 2%;
+}
+/*Retouche image de div "pourquoiJouer"*/
+#coop {
+  width: 31%;
+  margin: 2%;
+}
+/*-----------------------Video---------------------------*/
+/*General*/
+#video {
+  border: 3px solid black;
+  padding: 25px;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 4%;
+}
+/*Retouche au iframe*/
+#video iframe {
+  margin: 4%;
+}
+#video iframe:hover {
+  transform: scale(1.4, 1.4);
+}
+/*------------------------Galerie--------------------------*/
+/*General*/
+#galerie {
+  padding: 2%;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+/*Retouche les images*/
+#galerie img {
+  width: 12%;
+  margin: 2%;
+}
+/*Transform*/
+#galerie img:hover {
+  transform: scale(2, 2);
+}
+/*---------------------------Contacts----------------------------*/
+/*General*/
+#contacts {
+  margin: 4%;
+}
+/*Retouche les icons*/
+#icons img {
+  width: 4%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+}
+/*Retouche les paragraphs*/
+#infoContacts p {
+  margin: 1%;
+}

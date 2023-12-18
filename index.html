@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Halo: Une Franchise qui Traverse l'Univers</title>
+  </head>
+  <body>
+    <section id="global">
+      <!--Partie titre et "logo"-->
+      <header id="entete">
+        <!--Titre-->
+        <u><h1>Halo: Une Franchise qui Traverse l'Univers</h1></u>
+        <!--Logo-->
+        <p>Plonger dans l'enfer Covenant</p>
+      </header>
+      <!--Menu pour les catégories-->
+      <nav id="menu">
+        <div>
+          <a href="#accueil">Accueil</a>
+          <a href="#inscription">Inscription</a>
+          <a href="#tableau">Tableau</a>
+          <a href="#article">Article</a>
+          <a href="#video">Vidéo</a>
+          <a href="#galerie">Galerie</a>
+          <a href="#contacts">Contacts</a>
+        </div>
+      </nav>
+      <!--Partie d'introduction de site-->
+      <section id="accueil">
+        <u><h2>Accueil</h2></u>
+        <p>
+          TP2 par Théo Moula,582-1W1- Mise en Page Web,TIM,Collège de
+          Maisonneuve,Automne 2023,<a
+            href="https://rozwelll.github.io/theo_moula_Tp2/"
+            >Mon Github</a
+          >
+        </p>
+      </section>
+      <!--Tableau et formulaire-->
+      <section id="tableauInscription">
+        <!--Partie du formulaire-->
+        <section id="inscription">
+          <form>
+            <u><h2>Formulaire d'inscription</h2></u>
+            <fieldset>
+              <label for="nom">Nom et prénom:</label>
+              <input type="text" id="nom" name="nom" />
+              <label for="date">Date de naissance:</label>
+              <input type="date" id="date" name="date" />
+              <label for="email">Adresse courriel</label>
+              <input type="email" name="email" id="email" />
+              <label for="jeuFavori">Quelle est votre Halo préféré ?</label>
+              <select name="jeuFavori" id="jeuFavori">
+                <option value="vide">Aucun</option>
+                <option value="haloMCC">Halo: Master Chief Collection</option>
+                <option value="halo4">Halo: 4</option>
+                <option value="halo5">Halo: 5</option>
+                <option value="haloInfinite">Halo: Infinite</option>
+                <option value="haloWars">Halo: Wars</option>
+                <option value="haloSA">Halo: Spartan Assault</option>
+                <option value="haloST">Halo: Spartan strike</option>
+                <option value="autre">Autre ?</option>
+              </select>
+              <p>Voulez vous recevoir des news du site ?</p>
+              <input type="radio" name="accepte" id="accepte" value="accepte" />
+              <label for="oui">Oui</label><br />
+              <input type="radio" name="refuse" id="refuse" value="non" />
+              <label for="refuse">Non</label>
+              <label for="autreChose">Plus de chose à dire ?</label>
+              <textarea
+                name="autreChose"
+                id="autreChose"
+                cols="30"
+                rows="5"
+              ></textarea
+              ><br />
+              <input type="submit" id="bouton_submit" value="Soumettre" />
+              <input id="annuler" type="reset" value="annuler" />
+            </fieldset>
+          </form>
+        </section>
+        <!--Partie tableau-->
+        <section id="tableau">
+          <u><h2>Popularité de la franchise</h2></u>
+          <table>
+            <tr>
+              <th>Nom</th>
+              <th>Joueurs actuels</th>
+              <th>Moyenne 30 jours</th>
+              <th>Sommets de tous les temps</th>
+            </tr>
+
+            <tr>
+              <td>Halo: Master Chief Collection</td>
+              <td>7 000</td>
+              <td>5 000</td>
+              <td>100 000</td>
+            </tr>
+
+            <tr>
+              <td>Halo: 5</td>
+              <td>400</td>
+              <td>250</td>
+              <td>300 000</td>
+            </tr>
+
+            <tr>
+              <td>Halo: Infinite</td>
+              <td>24 000</td>
+              <td>50 000</td>
+              <td>450 000</td>
+            </tr>
+
+            <tr>
+              <td>Halo: Wars</td>
+              <td>300</td>
+              <td>220</td>
+              <td>4000</td>
+            </tr>
+
+            <tr>
+              <td>Halo: Spartan Assault</td>
+              <td>4</td>
+              <td>6</td>
+              <td>700</td>
+            </tr>
+
+            <tr>
+              <td>Halo: Spartan Strike</td>
+              <td>10</td>
+              <td>8</td>
+              <td>130</td>
+            </tr>
+          </table>
+        </section>
+      </section>
+      <!--Partie article-->
+      <section id="article">
+        <!--Partie histoire principale-->
+        <div id="histoirePrincipale">
+          <img
+            id="coop"
+            src="images/Article/livreHalo.jpg"
+            alt="Image livre halo"
+          />
+          <u><h2>Histoire Principale</h2></u>
+          <p>
+            Dans l'univers de Halo qui prend place dans les années 2500 vous
+            incarnez un soldat humain (John 117) modifié génétiquement dans une
+            armure de combat futuriste Mjolnir. Vous lutterez avec d'autres
+            humains ainsi que d'autre super soldat contre les Covenantes. Les
+            Covenantes sont une alliance alien beaucoup plus avancer
+            technologiquement que les humains et veulent éradiquer toutes traces
+            de nous dans la galaxie pour revendiquer les "halos", une arme qui
+            suprimme toutes traces de vie organique dans sa zone d'effets. Votre
+            tache est que notre race survive a tous prix.
+          </p>
+        </div>
+        <!--partie pourquoir jouer-->
+        <div id="pourquoiJouer">
+          <img
+            id="livre"
+            src="images/Article/haloInfiniteCoop.jpg"
+            alt="Image halo co-op"
+          />
+          <u><h2>Pourquoi Jouer ?</h2></u>
+          <p>
+            La principal raison pour laquelle on voudrais jouer à Halo est le
+            mode histoire. La campagne est riche en diversité et nous coupes le
+            souffle avec des environement alien et humain, des combats plus que
+            intense et rafraichissant. À travers les differents titre Halo vous
+            découvrirez et participerez à la survie de notre espèce ainsi que de
+            ses horreurs. Le multijoueur est aussi un gros plus qui comprend les
+            modes classiques mais aussi le mode forge qui permet a la communauté
+            de crée absolument tout avec pour seul limite...le joueur lui même.
+          </p>
+        </div>
+      </section>
+      <!--Partie video-->
+      <section id="video">
+        <u><h2>Résumé de l'univers de Halo</h2></u>
+        <!--Video-->
+        <figure>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/d0KqGswsbuo?si=Y6snQbXvHWmhE604"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <figcaption>
+            <u>Voici un résumé très bref de l'histoire de Halo.</u>
+          </figcaption>
+        </figure>
+      </section>
+      <!--Partie galerie d'image-->
+      <section id="galerie">
+        <img src="images/Section galerie/halo5.png" alt="image Halo 5" />
+
+        <img
+          src="images/Section galerie/haloInfinite.jpg"
+          alt="image Halo Infinite"
+        />
+
+        <img src="images/Section galerie/haloWars.png" alt="image Halo Wars" />
+
+        <img
+          src="images/Section galerie/haloSA.png"
+          alt="image Halo Spartan Assault"
+        />
+
+        <img
+          src="images/Section galerie/haloST.jpg"
+          alt="image Spartan Strike"
+        />
+      </section>
+      <!--Footer de contacts-->
+      <footer id="contacts">
+        <!--Icons résaux sociaux-->
+        <div id="icons">
+          <img src="images/Icons/discorde.png" alt="Icon Discord" />
+
+          <img src="images/Icons/facebook.png" alt="Icon Facebook" />
+
+          <img src="images/Icons/instagram.png" alt="icon instagram" />
+        </div>
+        <!--Info contacts-->
+        <div id="infoContacts">
+          <p>3800, rue Sherbrooke Est Montréal(Québec) H1X 2A2</p>
+          <a href="#accueil">Retour haut de page</a>
+          <p>Techniques d'Intégration Multimédia</p>
+          <p><u>Avis de confidentialité</u> | <u>Privacy Notice</u></p>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
